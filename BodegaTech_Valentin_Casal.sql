@@ -2,10 +2,6 @@
 -- Autor: Valentín Casal
 -- Fecha: 29/06/2026
 
-CREATE DATABASE BodegaTech; --creo la base de datos llamada BodegaTech
-
-USE BodegaTech; --le indico que usemos la base de datos BodegaTech creada anteriormente
-
 -- SECCIÓN DDL - DEFINO LA ESTRUCTURA --
 
 DROP TABLE IF EXISTS inventario; -- si existiera la tabla inventario anteriormente, la elimino para que no ocurran errores al ejecutar los scripts
